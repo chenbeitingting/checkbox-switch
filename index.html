@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style type="text/css" media="screen">
+		.mui-switch {width: 52px;height: 31px;position: relative;border: 1px solid #dfdfdf;background-color: #fdfdfd;box-shadow: #dfdfdf 0 0 0 0 inset;border-radius: 20px;background-clip: content-box;display: inline-block;-webkit-appearance: none;user-select: none;outline: none; }
+		  .mui-switch:before {content: '';width: 29px;height: 29px;position: absolute;top: 0px;left: 0;border-radius: 20px;background-color: #fff;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
+		   .mui-switch:checked {border-color: #64bd63;box-shadow: #64bd63 0 0 0 16px inset;background-color: #64bd63; }
+		    .mui-switch:checked:before {left: 21px; }
+
+		    /* all */
+::-webkit-input-placeholder { color:#f00; }
+::-moz-placeholder { color:#f00; } /* firefox 19+ */
+:-ms-input-placeholder { color:#f00; } /* Internet Explorer 10+ */
+:-moz-placeholder { color:#f00; } /* firefox 14-18 */
+ 
+/*  webkit 私有 */
+#field2::-webkit-input-placeholder { color:#00f; }
+#field3::-webkit-input-placeholder { color:#090; background:lightgreen; text-transform:uppercase; }
+#field4::-webkit-input-placeholder { font-style:italic; text-decoration:overline; letter-spacing:3px; color:#999; }
+ 
+/* mozilla 私有 */
+#field2::-moz-placeholder { color:#00f; }
+#field3::-moz-placeholder { color:#090; background:lightgreen; text-transform:uppercase; }
+#field4::-moz-placeholder { font-style:italic; text-decoration:overline; letter-spacing:3px; color:#999; }
+	</style>
+</head>
+<body>
+	<label><input class="mui-switch" type="checkbox"> 默认未选中</label>
+	<label><input class="mui-switch" type="checkbox" checked> 默认选中</label>
+	<input placeholder="搜索" type="text">
+</body>
+</html>
